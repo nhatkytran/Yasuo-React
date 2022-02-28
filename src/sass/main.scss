@@ -1,0 +1,10 @@
+@import "./abstracts/variables.scss";
+
+// Base
+@import "./base/fonts.scss";
+@import "./base/base.scss";
+
+// First page
+@import "./first/first.scss";
+@import "./first/background.scss";
+@import "./first/tooltip.scss";

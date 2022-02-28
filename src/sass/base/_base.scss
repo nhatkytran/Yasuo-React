@@ -1,0 +1,30 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
+// No padding on (too large or too small screen)
+
+// ::selection {
+//     background-color: $color-primary;
+//     color: $color-white;
+// }
+
+// //////////////////////////////////////////////
+
+.app {
+  width: 100%;
+  max-width: 160rem;
+  padding: 3rem;
+  margin: auto;
+}

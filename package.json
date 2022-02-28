@@ -1,0 +1,14 @@
+{
+  "name": "vs",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node-sass src/sass/main.scss src/css/style.css -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
